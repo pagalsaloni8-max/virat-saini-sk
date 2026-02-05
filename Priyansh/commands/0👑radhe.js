@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "HARTLESS",
+  name: "radhe",
     version: "2.1.1",
   hasPermssion: 0,
   credits: "𝐏𝐑𝐈𝐘𝐀𝐍𝐒𝐇𝐈 𝐊𝐀𝐔𝐑", 
@@ -19,15 +19,12 @@ react.includes("kanha") ||
 react.includes("murli") ||     
 react.includes("Radha")) {
     var msg = {
-        body: `💝༄ᶦᶰᵈ᭄🔥⃝яα∂нє яα∂нє❥❥═══🙏 
-        
-        हमने प्रेम की कितनी बाधा 
-        ________________________
-        देखी, फिर भी कृष्णा के  __________________________
-        
-        साथ राधा देखी…!!
-        
-        ༄ᶦᶰᵈ᭄🔥⃝яα∂нє яα∂нє❤️❥❥═══🙏👈`,attachment: fs.createReadStream(__dirname + `/noprefix/radhe.mp4`)
+        body: `
+⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱  
+
+||••♦• 𝐑𝐚𝐝𝐡𝐞 𝐑𝐚𝐝𝐡𝐞 •♦••||
+
+  ⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱`,attachment: fs.createReadStream(__dirname + `/noprefix/radhe.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
