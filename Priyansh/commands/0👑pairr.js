@@ -108,9 +108,7 @@ module.exports.run = async function ({ api, event, Users }) {
 
 ╚═══❖••° °••❖═══╝
 
-   ✶⊶⊷⊷❍⊶⊷⊷✶ ♡   ∩_∩  
- （„• ֊ •„)♡  
-╭─∪∪────♡──────⟡  │${name1}\n├───────♡──────⟡                           │${name2}\n╰───────♡──────⟡ ${tile}%`,
+   ✶⊶⊷⊷❍⊶⊷⊷✶ ♡ ${name1} ❤️ ${name2}`,
       mentions: [{ id: id2, tag: name2 }],
       attachment: fs.createReadStream(outPath)
     },
