@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 module.exports.config = {
-  name: "pair",
+  name: "pair2",
   version: "1.0.0", 
   hasPermssion: 0,
   credits: "D-Jukie (Modified by RDX)",
