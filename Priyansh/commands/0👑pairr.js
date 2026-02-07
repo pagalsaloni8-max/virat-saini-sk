@@ -2,7 +2,7 @@ module.exports.config = {
   name: "pair",
   version: "4.4.0",
   hasPermssion: 0,
-  credits: "ARIF BABU",
+  credits: "virat saini",
   description: "Pair DP (Only DP with background image)",
   usePrefix: true,
   commandCategory: "PAIR 2",
@@ -100,7 +100,17 @@ module.exports.run = async function ({ api, event, Users }) {
 
   return api.sendMessage(
     {
-      body: `${name1} ❤️ ${name2}`,
+      body: `✧•❁ 𝐏𝐚𝐢𝐫........❁•✧
+
+╔═══❖••° °••❖═══╗
+
+   𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐏𝐚𝐢𝐫𝐢𝐧𝐠
+
+╚═══❖••° °••❖═══╝
+
+   ✶⊶⊷⊷❍⊶⊷⊷✶ ♡   ∩_∩  
+ （„• ֊ •„)♡  
+╭─∪∪────♡──────⟡  │${name1}\n├───────♡──────⟡                           │${name2}\n╰───────♡──────⟡ ${tile}%`,
       mentions: [{ id: id2, tag: name2 }],
       attachment: fs.createReadStream(outPath)
     },
