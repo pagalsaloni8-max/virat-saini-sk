@@ -14,8 +14,8 @@ module.exports.config = {
     cooldowns: 5,
     dependencies: {
         "priyansh-all-dl": "latest",
-        "axios": "0.21.1",
-        "fs-extra": "10.0.0",
+        "axios": "0.26.1",
+        "fs-extra": "10.1.0",
         "tempy": "0.4.0"
     }
 };
