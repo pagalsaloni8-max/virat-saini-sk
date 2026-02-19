@@ -25,7 +25,7 @@ react.includes("morning")) {
  ⋆☀︎.˖˳ 𝐆𝐨𝐨𝐝 𝐌𝐨𝐫𝐧𝐢𝐧𝐠 ⋆⋆˖⋆☀︎.
 ┗━━━━━━━━━━━━━━━━┛  
 
-  ☀️✨🫵🏻ـــــــــــــﮩ٨ـ❤️️⋆`,attachment: fs.createReadStream(__dirname + `/noprefix/gm.jpg`)
+☀️𝐍𝐚𝐬𝐭𝐚 𝐊𝐚𝐫𝐥𝐨 𝐆𝐚𝐲𝐬🍮ــــــــﮩ٨ـ❤️️⋆`,attachment: fs.createReadStream(__dirname + `/noprefix/gm.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("☔", event.messageID, (err) => {}, true)
