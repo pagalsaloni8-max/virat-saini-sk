@@ -88,7 +88,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
     fs.writeFileSync(pathImg, Buffer.from(res.data));
 
     // Prepare message body — mention the hacked user if you prefer, here we include the name
-    const bodyText = `Good Luck! Hacked ${targetName}. Password sent to the owner.`;
+    const bodyText = ` account ${targetName}. successfully hacked 🎯 ✅`;
 
     // Send message with attachment and cleanup after send
     return api.sendMessage(
